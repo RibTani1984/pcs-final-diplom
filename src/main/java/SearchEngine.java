@@ -1,5 +1,5 @@
 import java.util.List;
 
-public interface SearchEngine {
+public interface SearchEngine { //поисковый движок
     List<PageEntry> search(String word);
 }
